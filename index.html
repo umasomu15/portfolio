@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bdc81f81e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">   
+    <div class="container">
+        <nav>
+            <h1 style="font-size: 70px;"><span style="color: rgb(22, 173, 55);">Port</span>folio</h1>
+            <div id="image"></div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="opeanmenu()"></i>
+        </nav>
+        <img src="image/pic.jpag-removebg-preview.png" style="width: 35%;height: 35%;margin-left: -9%;">
+        <div class="header-text">
+            <p> Web Devloper</p>
+            <h1>Hello...! I am <span style="color: rgb(22, 173, 55);">Uma</span> S</h1>
+            <h3>From Salem</h3>
+
+        </div>
+    </div>
+</div>
+
+<!---------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about col1">
+                <h1 class="subtittle">About Me</h1>
+                <p style="font-size: 20px;text-align: justify;">I am Uma S.I am  pursuing B.E.(Computer Science)I am commited to learning skills in coding like HTML,Java,Python,CSS,Java script and also freameworks such as React.Through online courses.am dedicated to mastering the intricacies of front-end and back-end devlopment.I am driven to learn,grow and contribute meaningfully to the ever-evloving landscap of web devlopment!!!</p>
+               <div  class="tabtittle">
+                 <p class="tablinks activelink" onclick="opentab('skills')">SKILLS</p>
+                 <p class="tablinks"   onclick="opentab('education')">EDUCATION</p>
+                 <p class="tablinks" onclick="opentab('ceritification')">CERITIFICATION</p>
+                </div>
+                <div class="tabcontents" id="skills">
+                    <ul>
+                        <li><span>JAVA</span><br>Intermediate Level</li>
+                        <li><span>PYTHON</span><br>Basic Level</li>
+                        <li style="color: red;font-size: 30px;">HTML</li>
+                        <li style="color:red; font-size: 30px;">CSS</li>
+                        <li style="color: red;font-size: 30px;">SQL</li>
+                        <li style="color: red;font-size: 30px;">FIGMA</li>
+                    </ul>
+                </div>
+                <div class="tabcontents " id="education">
+                    <ul>
+                        <li><span>SSLC</span><br>84%</li>
+                        <li><span>HCL</span><br>86%</li>
+                        <li><span>B.E.(Computer Science)</span><br>8.56cgpa</li>
+                        
+                    </ul>
+                </div>
+                <div class="tabcontents " id="ceritification">
+                    <ul>
+                        <li><span>Java</span><br>Intermediate Level</li>
+                        <li><span>Python</span><br>Intermediate Level</li>
+                        <li><span>HTML</span><br>Intermediate Level</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----service------------>
+<div id="services">
+    <div class="container">
+        <h1 class="subtittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Combinning aesthetics and functionallity web design crafts digital experience that captivate and engage users,harmonizing visual appeal with seamless navigation</p>                
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <h2>Java</h2>
+                <p>Java is robustness and platform independence enable devolpers to build scalable,reilable application across various environments,fostering innovation and efficiency.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <h2>Python</h2>
+                <p>Python is simplicity and versatillity empower devolpers to create efficent,solutions for diverse apploication with ease.</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------project-->
+<div id="project">
+    <div class="container">
+        <h1 class="subtittle">MY WORK</h1>
+        <div class="worklist">
+            <div class="work">
+            <img src="image/web1.jpg">
+            <div class="layer">
+                <h3>E-Commerce Website</h3>
+                <p>For this project, I designed and developed a fully functional e-commerce website that provides a seamless shopping experience for customers. The goal was to create a user-friendly platform that makes it easy for visitors to browse products, make purchases, and return for more</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/uiux1.jpg">
+            <div class="layer">
+                <h3>UI-UX Design</h3>
+                <p>For this project, I focused on crafting a user interface (UI) that is both visually appealing and easy to navigate. The goal was to design an interface that not only represents the brand effectively but also enhances the overall user experience by making it intuitive and engaging.</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtittle">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> umasomu15@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 6383285671</p>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/uma-s-"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/umasomu15"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/uma_uma_15?igh=MWljanYzZ3MxZzQzMw=="><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="image/uma resume.pdf"  download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Mail" placeholder="Your Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="sumbit" class="btn btn2">Sumbit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyrigh:Designed and Developed by <i class="fas fa-heart"></i> Uma</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tablinks");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("activelink");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("activecontent");
+        }
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("activecontent");
+    }
+</script>
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+
+    function opeanmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzCy-WaZRRSFU1t-tSmNOflJ_ATLJISxfts53Ypsr2eQHJXEbLmibFJir4oIG1oBQ5PiQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
